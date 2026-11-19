@@ -43,6 +43,9 @@
 
 ## Git
 
-- 外层 git 管理 monorepo 边界和根目录文档。
-- `my-website` 与 `my-webSite-backend` 各自一个 git，互不作为对方的工作区。
-- 子目录里的 skills、`.scratch`、`GLOSSARY.md`、`docs/` 属于该子目录的 git。
+整个 monorepo 只有一个 git，远程是 https://github.com/wypjiang/My_webSite。
+
+- `main` 同时包含 `my-website` 和 `my-webSite-backend`。
+- 前端改动提交到 `my-website` 分支。
+- 后端改动提交到 `my-webSite-backend` 分支。
+- 两套 skills、`.scratch`、`GLOSSARY.md`、`docs/` 仍按子目录分开，都提交在这一个仓库里。

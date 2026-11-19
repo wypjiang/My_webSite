@@ -2,7 +2,7 @@
 
 外层仓库：https://github.com/wypjiang/My_webSite
 
-本仓库是一个 monorepo，包含两个子目录。外层有一个 git。每个子目录另有自己的 git；这两个 git 目前只有本地仓库，没有单独的 remote。
+本仓库是一个 monorepo，前后端都在这一个 git 里。远程是 https://github.com/wypjiang/My_webSite。`main` 同时包含两个子目录。前端改动用 `my-website` 分支，后端改动用 `my-webSite-backend` 分支。
 
 | 目录 | 位置 |
 | --- | --- |

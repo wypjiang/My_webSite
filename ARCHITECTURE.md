@@ -5,20 +5,20 @@
 ## 仓库分层
 
 ```
-My_webSite/                         外层 git，remote 为 github.com/wypjiang/My_webSite
+My_webSite/                         一个 git，remote 为 github.com/wypjiang/My_webSite
 ├── README.md
 ├── ARCHITECTURE.md
 ├── CONVENTIONS.md
 ├── .gitignore
 ├── .github/CONTRIBUTING.md
-├── my-website/                     前端，独立 git
+├── my-website/                     前端，对应分支 my-website
 │   ├── .agents/skills/             本目录自己的 skills
 │   ├── .scratch/                   本目录自己的 local markdown 工单
 │   ├── AGENTS.md
 │   ├── GLOSSARY.md
 │   ├── docs/agents/                issue tracker、triage labels、domain docs 配置
 │   └── docs/adr/                   本目录的 ADR
-└── my-webSite-backend/             后端，独立 git
+└── my-webSite-backend/             后端，对应分支 my-webSite-backend
     ├── .agents/skills/
     ├── .scratch/
     ├── AGENTS.md

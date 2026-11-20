@@ -1,6 +1,8 @@
 # Local issue tracker
 
-Issues and specs for this package live in this directory. No features or tickets have been created.
+Issues and specs for this package live in this directory.
+
+- `site-v1/spec.md` is the first-version HTTP interface spec. Status: `ready-for-agent`.
 
 - One feature per directory: `.scratch/<feature-slug>/`
 - Spec: `.scratch/<feature-slug>/spec.md`

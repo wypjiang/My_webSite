@@ -2,4 +2,6 @@
 
 ADRs for this package are numbered files in this directory: `0001-short-title.md`, then `0002-...`.
 
-No decisions are recorded yet. Add an ADR only when a decision has actually been resolved.
+- [0001-recruiter-account-reads-projects.md](./0001-recruiter-account-reads-projects.md)
+- [0002-aliyun-e-instance.md](./0002-aliyun-e-instance.md)
+- [0003-warm-paper-reading-layout.md](./0003-warm-paper-reading-layout.md)

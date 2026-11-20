@@ -1,0 +1,42 @@
+:root {
+  --ground: #f3eee4;
+  --ink: #1c1914;
+  --pine: #2c5c4e;
+  --serif: 'Source Han Serif SC', 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+  --sans: 'Source Han Sans SC', 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', sans-serif;
+  color-scheme: light;
+  font: 17px/1.85 var(--sans);
+  color: var(--ink);
+  background: var(--ground);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  min-height: 100svh;
+}
+
+.column {
+  box-sizing: border-box;
+  width: min(38rem, 100%);
+  margin-inline: auto;
+  padding: 4.5rem 1.5rem 5rem;
+}
+
+h1,
+h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: var(--pine);
+  text-underline-offset: 0.2em;
+}
